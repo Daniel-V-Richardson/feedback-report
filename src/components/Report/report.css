@@ -1,0 +1,38 @@
+.card-view {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+.cards {
+  width: 50%;
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.card {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 28px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 20px;
+}
+.card img {
+  width: 50%;
+  height: auto;
+}
+.card-title {
+  margin-top: 20px;
+  width: fit-content;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+
+  font-size: 1.5rem;
+}
